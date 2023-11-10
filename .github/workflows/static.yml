@@ -10,7 +10,7 @@ jobs:
     - name: vuepress-deploy
       uses: zzy-web/zViewDoc@main
       env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: zzy-web/zViewDoc
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
