@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@v1
 
     - name: zViewDoc
       uses: zzy-web/zViewDoc@main
