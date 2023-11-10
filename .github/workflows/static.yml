@@ -8,10 +8,10 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: zzy-web/z-view-docs@main
+      uses: zzy-web/zViewDocs@main
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: zzy-web/z-view-docs
+        ACCESS_TOKEN: ${{ secrets.SN }}
+        TARGET_REPO: zzy-web/zViewDocs
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
