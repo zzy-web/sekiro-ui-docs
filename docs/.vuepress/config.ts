@@ -5,9 +5,9 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 
 const __dirname = getDirname(import.meta.url)
+
 export default {
   title: 'zView',
-  base: '/zViewDoc/',
   description: 'zView，一套为我自己准备的基于 Vue 3.0 的桌面端组件库',
   head: [
     ['link', { rel: 'icon', href: '/img/logo.png' }],
