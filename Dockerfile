@@ -5,7 +5,5 @@ ENV PYTHONUNBUFFERED 1
 
 RUN pip install --upgrade --no-cache-dir coscmd
 
-COPY "entrypoint.sh" "/entrypoint.sh"
-RUN chmod +x /entrypoint.sh
-
+COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
