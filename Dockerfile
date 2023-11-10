@@ -1,4 +1,4 @@
-FROM node:16.20.1 as base
+FROM node:16.19.1-slim as base
 
 LABEL "com.github.actions.name"="zViewDocs deploy"
 LABEL "com.github.actions.description"="A GitHub Action to build and deploy zViewDocs sites to GitHub Pages"

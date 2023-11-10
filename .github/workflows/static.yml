@@ -10,7 +10,7 @@ jobs:
     - name: zViewDocs-deploy
       uses: zzy-web/zViewDocs@main
       env:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.SN}}
         TARGET_REPO: zzy-web/zViewDocs
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
