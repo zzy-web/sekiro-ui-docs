@@ -1,9 +1,0 @@
-name: 'zViewDocs deploy'
-description: 'A GitHub Action to build and publish zViewDocs sites to GitHub Pages'
-author: 'zzy-web'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-branding:
-  icon: 'upload-cloud'
-  color: 'gray-dark'
