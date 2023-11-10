@@ -9,7 +9,7 @@ LABEL "repository"="https://github.com/zzy-web/zViewDocs"
 LABEL "homepage"="https://github.com/zzy-web/zViewDocs"
 LABEL "maintainer"="2584007592@qq.com"
 
-RUN apt-get update && apt-get install -y git jq
+RUN apt-get update && apt-get install -y git jq 
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
