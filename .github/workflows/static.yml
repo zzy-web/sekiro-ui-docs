@@ -11,7 +11,7 @@ jobs:
       uses: zzy-web/zViewDoc@main
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: username/repo
+        TARGET_REPO: zzy-web/repo
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
