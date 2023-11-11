@@ -35,7 +35,7 @@ else
 fi
 
 # Final repository
-DEPLOY_REPO="https://username:${ACCESS_TOKEN}@github.com/${REPOSITORY_NAME}.git"
+DEPLOY_REPO="https://zzy-web:${ACCESS_TOKEN}@github.com/${REPOSITORY_NAME}.git"
 if [ "$TARGET_LINK" ]; then
   DEPLOY_REPO="$TARGET_LINK"
 fi
@@ -67,7 +67,7 @@ fi
 
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push --force $DEPLOY_REPO master:$DEPLOY_BRAN
+git push --force $DEPLOY_REPO main:$DEPLOY_BRAN
 rm -fr .git
 
 cd $GITHUB_WORKSPACE
