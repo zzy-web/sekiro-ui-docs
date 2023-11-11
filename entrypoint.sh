@@ -67,7 +67,7 @@ fi
 
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push --force $DEPLOY_REPO main:$DEPLOY_BRAN
+git push --force $DEPLOY_REPO master:$DEPLOY_BRAN
 rm -fr .git
 
 cd $GITHUB_WORKSPACE
