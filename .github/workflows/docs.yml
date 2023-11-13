@@ -13,14 +13,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Build and Deploy
-        run: |
-          npm install
-          npm run build
-          cp -R docs/.vuepress/dist/* ../gh-pages/
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.SN }}
-          publish_dir: ../gh-pages
+          publish_dir: ./docs/.vuepress/dist
+          publish_branch: gh-pages
