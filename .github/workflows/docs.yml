@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  
+      - main  # 或者你自定义的分支名
 
 jobs:
   deploy:
@@ -27,5 +27,5 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.WW }}
+        deploy_key: ${{ secrets.WW }}
         publish_dir: ./docs/.vuepress/dist
