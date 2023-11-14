@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,b as r}from"./app-d983917c.js";const s={},o=e("h1",{id:"quickstart",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#quickstart","aria-hidden":"true"},"#"),r(" quickstart")],-1),i=[o];function n(_,d){return a(),c("div",null,i)}const h=t(s,[["render",n],["__file","quickstart.html.vue"]]);export{h as default};
