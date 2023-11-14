@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as s,a as e,b as c}from"./app-d983917c.js";const n={},o=e("h1",{id:"设计",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#设计","aria-hidden":"true"},"#"),c(" 设计")],-1),r=[o];function _(d,i){return a(),s("div",null,r)}const l=t(n,[["render",_],["__file","design.html.vue"]]);export{l as default};
