@@ -8,7 +8,7 @@ const __dirname = getDirname(import.meta.url)
 
 export default {
   title: 'zView',
-  base:'/zViewDoc/',
+  base:'/gh-pages/',
   description: 'zView，一套为我自己准备的基于 Vue 3.0 的桌面端组件库',
   head: [
     ['link', { rel: 'icon', href: '/img/logo.png' }],
