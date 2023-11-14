@@ -11,7 +11,7 @@ export default {
   base:'/zViewDocs/',
   description: 'zView，一套为我自己准备的基于 Vue 3.0 的桌面端组件库',
   head: [
-    ['link', { rel: 'icon', href: '/img/logo.png' }],
+    ['link', { rel: 'icon', href: '/img/logo.png' }], 
     ['link', { rel: 'stylesheet', href: '/styles/index.scss' }]
   ],
   port: 8079,
