@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as r}from"./app-421987e3.js";const s={},o=e("h1",{id:"快速开始",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#快速开始","aria-hidden":"true"},"#"),r(" 快速开始")],-1),n=[o];function _(d,i){return a(),c("div",null,n)}const l=t(s,[["render",_],["__file","quickstart.html.vue"]]);export{l as default};
