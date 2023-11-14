@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Update Git
+        run: sudo apt-get update && sudo apt-get upgrade -y git
+      - name: Set Git identity
+        run: |
+          git config --global user.name "zhengzy"
+          git config --global user.email "2584007592@qq.com"
       - name: Checkout code
         uses: actions/checkout@v2
 
