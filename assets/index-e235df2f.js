@@ -1,1 +1,0 @@
-import{_ as t,o as _,c as d,p as c,f as a,a as s}from"./app-5b3a8682.js";const n={name:"Test1"},o=e=>(c("data-v-4df80642"),e=e(),a(),e),p={class:"demo"},i=o(()=>s("div",null,"1",-1)),r=o(()=>s("div",null,"2",-1)),l=[i,r];function f(e,u,v,h,x,m){return _(),d("div",p,l)}const $=t(n,[["render",f],["__scopeId","data-v-4df80642"],["__file","index.vue"]]);export{$ as default};
