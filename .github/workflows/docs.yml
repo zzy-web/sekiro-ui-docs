@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: zViewDocs-deploy
-      uses: zzy-web/zViewDocs@main
+      uses: zzy-web/zViewDocs@main 
       env:
         ACCESS_TOKEN: ${{ secrets.SN }}
         TARGET_REPO: zzy-web/zViewDocs
