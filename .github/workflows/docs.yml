@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
@@ -22,5 +22,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.WW  }}
+          personal_token: ${{ secrets.WW }}
           publish_dir: ./docs/.vuepress/dist
+          publish_branch: gh-pages
