@@ -8,10 +8,10 @@ const __dirname = getDirname(import.meta.url)
 
 export default {
   title: 'zView',
-  base:'/zViewDocs/',
+  base: '/zViewDocs/',
   description: 'zView，一套为我自己准备的基于 Vue 3.0 的桌面端组件库',
   head: [
-    ['link', { rel: 'icon', href: '/img/logo.png' }], 
+    ['link', { rel: 'icon', href: '/img/logo.png' }],
     ['link', { rel: 'stylesheet', href: '/styles/index.scss' }]
   ],
   port: 8079,
@@ -22,7 +22,11 @@ export default {
   },
   plugins: [
     backToTopPlugin(),
-    docsearchPlugin({}),
+    docsearchPlugin({
+      appId: 'DIRJZ01PYH',
+      apiKey: '7195912ec4d7d1f6a82c03915bf63ee4',
+      indexName: 'zview',
+    }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
     }),
@@ -36,22 +40,23 @@ export default {
       '/guide/': [
         {
           text: '基础',
-          children: [{
-            text: '设计',
-            link: '/guide/design'
-          },
-          {
-            text: '导航',
-            link: '/guide/nav'
-          },
-          {
-            text: '安装',
-            link: '/guide/installation'
-          },
-          {
-            text: '快速开始',
-            link: '/guide/quickstart'
-          }],
+          children: [
+            // {
+            //   text: '设计',
+            //   link: '/guide/design'
+            // },
+            // {
+            //   text: '导航',
+            //   link: '/guide/nav'
+            // },
+            {
+              text: '安装',
+              link: '/guide/installation'
+            },
+            {
+              text: '快速开始',
+              link: '/guide/quickstart'
+            }],
         },
         {
           text: '开发',
@@ -90,7 +95,7 @@ export default {
     navbar: [
       {
         text: '指南',
-        link: '/guide/design/',
+        link: '/guide/installation/',
         activeMatch: '/guide/',
       },
       {
