@@ -24,7 +24,7 @@ export default {
     backToTopPlugin(),
     docsearchPlugin({
       appId: 'DIRJZ01PYH',
-      apiKey: 'e7cd96500de1720eb5cd00c6694a367a',
+      apiKey: '7195912ec4d7d1f6a82c03915bf63ee4',
       indexName: 'zview',
     }),
     registerComponentsPlugin({
