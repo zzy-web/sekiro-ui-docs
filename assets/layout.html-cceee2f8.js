@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,b as c}from"./app-e80819f5.js";const r={},s=e("h1",{id:"layout",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#layout","aria-hidden":"true"},"#"),c(" layout")],-1),n=[s];function _(l,d){return a(),o("div",null,n)}const u=t(r,[["render",_],["__file","layout.html.vue"]]);export{u as default};
