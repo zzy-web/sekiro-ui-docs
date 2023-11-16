@@ -24,8 +24,14 @@ export default {
     backToTopPlugin(),
     docsearchPlugin({
       appId: 'DIRJZ01PYH',
-      apiKey: 'd2d58215e8422e6d708210de1005533a',
+      apiKey: '7195912ec4d7d1f6a82c03915bf63ee4',
       indexName: 'zview',
+      placeholder: '搜索文档',
+      translations: {
+        button: {
+          buttonText: '搜索文档',
+        },
+      }
     }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
