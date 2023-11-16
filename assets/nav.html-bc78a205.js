@@ -1,1 +1,0 @@
-import{_ as a,o as t,c,a as e,b as n}from"./app-48b4c749.js";const o={},r=e("h1",{id:"导航",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#导航","aria-hidden":"true"},"#"),n(" 导航")],-1),s=[r];function _(d,i){return t(),c("div",null,s)}const l=a(o,[["render",_],["__file","nav.html.vue"]]);export{l as default};
