@@ -1,4 +1,4 @@
-import { defaultTheme } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
 import { getDirname, path } from '@vuepress/utils'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
@@ -7,9 +7,9 @@ import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 const __dirname = getDirname(import.meta.url)
 
 export default {
-  title: 'zView',
-  base: '/zViewDocs/',
-  description: 'zView，一套为我自己准备的基于 Vue 3.0 的桌面端组件库',
+  title: 'sekiro',
+  base: '/sekiro-ui-docs/',
+  description: 'sekiro，一套为我自己准备的基于 Vue 3.0 的桌面端组件库',
   head: [
     ['link', { rel: 'icon', href: '/img/logo.png' }],
     ['link', { rel: 'stylesheet', href: '/styles/index.scss' }]
@@ -21,6 +21,7 @@ export default {
     }
   },
   plugins: [
+    'demo-container',
     backToTopPlugin(),
     docsearchPlugin({
       appId: 'DIRJZ01PYH',
@@ -39,7 +40,7 @@ export default {
   ],
   theme: defaultTheme({
     logo: '/img/logo.png',
-    repo: 'https://github.com/zzy-web/zView',
+    repo: 'https://github.com/zzy-web/sekiro-ui',
     sidebar:
     {
       // 指南
@@ -90,10 +91,14 @@ export default {
           }],
         },
         {
-          text: '组件',
+          text: 'Basic 基础组件',
           children: [{
             text: 'layout 布局',
             link: '/component/layout'
+          },
+          {
+            text: 'Button 按钮',
+            link: '/component/button'
           }],
         },
       ],
