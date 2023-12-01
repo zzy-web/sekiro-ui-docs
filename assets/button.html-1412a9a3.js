@@ -1,0 +1,1 @@
+import{_ as o,r as n,o as a,c as s,d as c,a as e,b as r}from"./app-0604eefb.js";const _={},d=e("h1",{id:"button-按钮",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#button-按钮","aria-hidden":"true"},"#"),r(" Button 按钮")],-1);function l(u,i){const t=n("Test1");return a(),s("div",null,[d,c(t)])}const f=o(_,[["render",l],["__file","button.html.vue"]]);export{f as default};

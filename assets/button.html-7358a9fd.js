@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1fdc817c","path":"/component/button.html","title":"Button 按钮","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701401250000,"contributors":[{"name":"zzy","email":"2584007592@qq.com","commits":1}]},"filePathRelative":"component/button.md"}');export{t as data};
